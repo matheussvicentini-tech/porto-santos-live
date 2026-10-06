@@ -1,10 +1,59 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Porto Santos Live</title><link rel="manifest" href="/manifest.json"><style>
-:root{--blue:#07376d;--bg:#f3f6fa;--card:#fff;--line:#dfe6ef;--muted:#63748a}*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Inter,system-ui,Arial;color:#10233f}header{background:linear-gradient(135deg,#052b56,#0878d1);color:#fff;padding:25px 18px}.wrap{max-width:1250px;margin:auto}.top{display:flex;justify-content:space-between;gap:15px;align-items:center}.top h1{margin:0;font-size:27px}.top p{margin:5px 0;opacity:.8}.btn{border:0;border-radius:10px;padding:11px 14px;font-weight:800;cursor:pointer}.push{background:#fff;color:#07589f}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}.stat{background:#ffffff18;border:1px solid #ffffff22;padding:13px;border-radius:12px}.stat b{display:block;font-size:22px}.stat span{font-size:11px;opacity:.8}main{padding:20px 18px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:14px}.toolbar{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:9px}input,select{padding:11px;border:1px solid var(--line);border-radius:9px}.scroll{overflow:auto}table{width:100%;border-collapse:collapse;min-width:1050px}th,td{padding:12px;border-bottom:1px solid var(--line);text-align:left;font-size:13px}th{font-size:11px;text-transform:uppercase;color:var(--muted)}.badge{padding:5px 8px;border-radius:99px;background:#eaf1fa;font-size:11px;font-weight:800}.green{background:#e3f7ee;color:#087a51}.orange{background:#fff0dc;color:#a96400}.blue{background:#e4f0ff;color:#075ea9}.meta{font-size:12px;color:var(--muted)}@media(max-width:750px){.stats{grid-template-columns:1fr 1fr}.toolbar{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}}
-</style></head><body><header><div class="wrap"><div class="top"><div><h1>⚓ Porto Santos — Live</h1><p>Chegada • Barra • Atracação</p></div><button id="push" class="btn push">🔔 Ativar notificações</button></div><div class="stats"><div class="stat"><b id="total">0</b><span>Navios</span></div><div class="stat"><b id="esperados">0</b><span>Esperados</span></div><div class="stat"><b id="barra">0</b><span>Na barra</span></div><div class="stat"><b id="atracados">0</b><span>Atracados</span></div></div></div></header><main class="wrap"><div class="card"><div class="toolbar"><input id="q" placeholder="🔎 Buscar navio, viagem ou IMO"><select id="st"><option value="">Todos os status</option><option>Esperado</option><option>Programado</option><option>Fundeado</option><option>Na barra</option><option>Atracado</option></select><select id="src"><option value="">Todas as fontes</option><option value="APS">APS</option><option value="Santos Brasil">Santos Brasil</option></select><button class="btn" onclick="load()">↻ Atualizar</button></div><p class="meta" id="info">Carregando dados oficiais…</p></div><div class="card scroll"><table><thead><tr><th>Navio / viagem</th><th>Status</th><th>Berço</th><th>ETA — chegada</th><th>ATA — barra</th><th>ETB — prevista</th><th>ATB — atracação</th><th>Fonte</th></tr></thead><tbody id="rows"></tbody></table></div></main><script>
-let all=[];const $=id=>document.getElementById(id);
-async function load(){try{const d=await(await fetch('/api/navios')).json();all=d.navios||[];render();$('info').textContent=`Última coleta: ${d.updatedAt?new Date(d.updatedAt).toLocaleString('pt-BR'):'aguardando'} • ${d.count||0} registros`;}catch(e){$('info').textContent='Erro ao consultar o servidor.'}}
-function render(){let q=$('q').value.toLowerCase(),s=$('st').value,src=$('src').value;let a=all.filter(n=>(!q||JSON.stringify(n).toLowerCase().includes(q))&&(!s||n.status===s)&&(!src||n.source.includes(src)));a.sort((x,y)=>(x.eta||'').localeCompare(y.eta||''));$('rows').innerHTML=a.map(n=>`<tr><td><b>${n.name||'—'}</b><br><span class="meta">${n.voyage||''}${n.imo?' • IMO '+n.imo:''}</span></td><td><span class="badge ${n.status==='Atracado'?'green':n.status==='Na barra'?'orange':'blue'}">${n.status||'—'}</span></td><td>${n.berco||'—'}</td><td>${n.eta||'—'}</td><td>${n.ata||'—'}</td><td>${n.etb||'—'}</td><td>${n.atb||'—'}</td><td class="meta">${n.source||'—'}</td></tr>`).join('')||'<tr><td colspan="8">Nenhum navio encontrado.</td></tr>'; $('total').textContent=all.length;$('esperados').textContent=all.filter(n=>n.status==='Esperado').length;$('barra').textContent=all.filter(n=>n.status==='Na barra').length;$('atracados').textContent=all.filter(n=>n.status==='Atracado').length}
-async function push(){if(!('serviceWorker'in navigator)||!('PushManager'in window))return alert('Este navegador não suporta Push.');let c=await(await fetch('/api/config')).json();if(!c.pushEnabled)return alert('O administrador ainda precisa configurar as chaves VAPID no Render.');let reg=await navigator.serviceWorker.register('/sw.js'),p=await Notification.requestPermission();if(p!=='granted')return;let sub=await reg.pushManager.getSubscription();if(!sub)sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:b64(c.publicKey)});await fetch('/api/push/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(sub)});$('push').textContent='🔔 Notificações ativas'}
-function b64(s){let r=atob((s+'='.repeat((4-s.length%4)%4)).replace(/-/g,'+').replace(/_/g,'/'));return Uint8Array.from([...r].map(c=>c.charCodeAt(0)))}
-$('push').onclick=push;$('q').oninput=render;$('st').onchange=render;$('src').onchange=render;load();setInterval(load,60000);
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Porto de Santos — Navios</title><meta name="theme-color" content="#0b3d62">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f7fa;color:#173042}
+header{background:#0b3d62;color:#fff;padding:18px 20px;position:sticky;top:0;z-index:5;box-shadow:0 2px 8px #0002}
+h1{margin:0;font-size:22px}header p{margin:5px 0 0;opacity:.85;font-size:13px}.wrap{max-width:1200px;margin:auto;padding:16px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.tab{border:0;border-radius:10px;padding:10px 13px;background:#fff;color:#173042;cursor:pointer;box-shadow:0 1px 4px #0001}.tab.active{background:#0b3d62;color:white}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}button,input,select{font:inherit}button{border:0;border-radius:10px;padding:10px 13px;background:#fff;color:#173042;cursor:pointer;box-shadow:0 1px 4px #0001}
+input,select{padding:11px;border:1px solid #ccd6df;border-radius:10px;background:#fff}.status{font-size:13px;margin:8px 0 14px;color:#526573}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#20a464;margin-right:6px}
+.card{background:#fff;border-radius:14px;padding:14px;margin:10px 0;box-shadow:0 2px 8px #0000000d}.row{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.ship{font-weight:700;font-size:17px}.muted{color:#697986;font-size:12px}.star{font-size:23px;background:none;box-shadow:none;padding:0}.star.on{color:#f0ad00}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-top:12px}.info{background:#f5f8fa;padding:8px;border-radius:9px}.label{font-size:10px;color:#71818c;text-transform:uppercase}.value{font-size:13px;margin-top:3px}
+.badge{display:inline-block;padding:4px 7px;border-radius:7px;background:#e8f2f8;color:#0b557e;font-size:11px;margin-top:6px}.source{font-size:10px;color:#8796a0;margin-top:10px}.empty{text-align:center;padding:35px;color:#687984}footer{text-align:center;color:#7a8a95;font-size:11px;padding:25px}
+@media(max-width:600px){.wrap{padding:10px}.row{align-items:center}.ship{font-size:15px}}
+</style></head>
+<body>
+<header><div class="wrap"><h1>🚢 Porto de Santos — Navios</h1><p>Chegadas, entrada na barra e atracações</p></div></header>
+<main class="wrap">
+<div class="tabs"><button class="tab active" data-tab="todos">Todos</button><button class="tab" data-tab="favoritos">⭐ Favoritos</button></div>
+<div class="actions"><input id="busca" placeholder="Buscar navio..." style="flex:1;min-width:180px">
+<select id="status"><option value="">Todos os status</option><option>Esperado</option><option>Barra</option><option>Atracado</option><option>Fundeado</option></select>
+<button id="notificar">🔔 Ativar notificações</button><button id="atualizar">↻ Atualizar agora</button></div>
+<div class="status"><span class="dot"></span><span id="statusText">Carregando...</span></div><section id="lista"></section>
+</main><footer>Dados consultados automaticamente das fontes públicas. Atualização prevista a cada 5 minutos.</footer>
+<script>
+const DATA_URL="./navios.json", FAV_KEY="porto_santos_favoritos", CACHE_KEY="porto_santos_cache";
+let ships=[],tab="todos",lastSignature="";
+const $=id=>document.getElementById(id);
+function favs(){return JSON.parse(localStorage.getItem(FAV_KEY)||"[]")} function saveFavs(a){localStorage.setItem(FAV_KEY,JSON.stringify(a))}
+function fmt(v){if(!v||v==="—")return "—"; return String(v)}
+function toggleFav(id){let a=favs();a=a.includes(id)?a.filter(x=>x!==id):[...a,id];saveFavs(a);render()}
+function sig(a){return JSON.stringify(a.map(x=>[x.id,x.status,x.ata,x.atb,x.eta]))}
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function escAttr(s){return String(s??"").replace(/'/g,"\\'")}
+function render(){
+ const q=$("busca").value.toLowerCase(),st=$("status").value,f=favs();
+ const arr=ships.filter(x=>(tab==="todos"||f.includes(x.id))&&(!q||(x.name||"").toLowerCase().includes(q)||(x.terminal||"").toLowerCase().includes(q)||(x.imo||"").includes(q))&&(!st||x.status===st));
+ if(!arr.length){$("lista").innerHTML='<div class="empty">Nenhum navio encontrado.</div>';return}
+ $("lista").innerHTML=arr.map(x=>`<article class="card"><div class="row"><div><div class="ship">${esc(x.name||"Navio sem nome")}</div><div class="muted">IMO: ${esc(x.imo||"—")} · ${esc(x.terminal||"Terminal não informado")}</div><span class="badge">${esc(x.status||"Sem status")}</span></div><button class="star ${f.includes(x.id)?"on":""}" onclick="toggleFav('${escAttr(x.id)}')">${f.includes(x.id)?"★":"☆"}</button></div><div class="grid">
+<div class="info"><div class="label">Chegada (ETA)</div><div class="value">${fmt(x.eta)}</div></div>
+<div class="info"><div class="label">Entrada na barra (ATA)</div><div class="value">${fmt(x.ata)}</div></div>
+<div class="info"><div class="label">Atracação (ATB)</div><div class="value">${fmt(x.atb)}</div></div>
+<div class="info"><div class="label">Previsão atracação (ETB)</div><div class="value">${fmt(x.etb)}</div></div></div><div class="source">Fonte: ${esc(x.source||"APS")} · Atualizado: ${esc(x.updatedAt||"—")}</div></article>`).join("")
+}
+async function load(){
+ $("statusText").textContent="Atualizando...";
+ try{const r=await fetch(DATA_URL+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error(r.status);const a=await r.json();const next=Array.isArray(a)?a:(a.navios||[]);
+ const s=sig(next);if(lastSignature&&s!==lastSignature&&Notification.permission==="granted")new Notification("Porto de Santos",{body:"As informações dos navios foram atualizadas."});
+ lastSignature=s;ships=next;localStorage.setItem(CACHE_KEY,JSON.stringify(next));$("statusText").textContent="Atualizado às "+new Date().toLocaleTimeString("pt-BR")+" · "+ships.length+" registros";render()
+ }catch(e){const c=JSON.parse(localStorage.getItem(CACHE_KEY)||"[]");if(c.length)ships=c;$("statusText").textContent="Falha na atualização. Mostrando último dado disponível.";render()}
+}
+$("notificar").onclick=async()=>{if(!("Notification"in window))return alert("Seu navegador não suporta notificações.");const p=await Notification.requestPermission();alert(p==="granted"?"Notificações ativadas.":"Permissão não concedida.")};
+$("atualizar").onclick=load;$("busca").oninput=render;$("status").onchange=render;
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));b.classList.add("active");tab=b.dataset.tab;render()});
+load();setInterval(load,300000);
 </script></body></html>
