@@ -122,7 +122,7 @@ def main():
 
     for status, source_name, url in SOURCES:
         try:
-            response = requests.get(url, headers=HEADERS, timeout=30)
+            response = requests.get(url, headers=HEADERS, timeout=30, verify=False)
             response.raise_for_status()
 
             rows = rows_from_html(response.text, status, source_name)
