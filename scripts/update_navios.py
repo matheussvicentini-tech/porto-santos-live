@@ -217,6 +217,135 @@ def parse_scheduled_berthings(html):
 
     return result
 
+
+SANTOS_BRASIL_API = "https://integraaquiapi.santosbrasil.com.br/listaAtracacao/listaAtracacaoGeral"
+
+def normalize_ship_name(value):
+    value = clean(value).upper()
+    # Remove viagem/armador anexados ao nome quando a fonte publica algo como
+    # "CMA CGM IRON --" ou "CMA CGM IRON 04512 2026".
+    value = re.sub(r"\s+\d{4,}.*$", "", value)
+    value = re.sub(r"\s+--.*$", "", value)
+    value = re.sub(r"[^A-Z0-9]+", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
+
+def parse_santos_brasil_api_payload(payload):
+    """Extrai registros da API pública de Lista de Atracação do Santos Brasil.
+    A API não documenta um schema de resposta no Swagger, então fazemos uma
+    leitura tolerante das chaves e também percorremos listas/objetos aninhados.
+    """
+    rows = []
+
+    def walk(obj):
+        if isinstance(obj, list):
+            for item in obj:
+                walk(item)
+            return
+        if not isinstance(obj, dict):
+            return
+
+        keys = {norm_col(k): k for k in obj.keys()}
+        def get(*names):
+            for name in names:
+                target = norm_col(name)
+                for nk, original in keys.items():
+                    if nk == target or target in nk or nk in target:
+                        return obj.get(original)
+            return ""
+
+        name = clean(get("navio", "ship", "navionome"))
+        imo = clean(get("imo"))
+        eta = clean(get("eta", "previsaochegada"))
+        ata = clean(get("ata"))
+        etb = clean(get("etb", "previsaodeatracacao"))
+        atb = clean(get("atb"))
+        terminal = clean(get("terminal", "berco", "local"))
+        voyage = clean(get("viagem", "voyage"))
+
+        if name and len(name) >= 2:
+            rows.append({
+                "id": re.sub(r"[^A-Za-z0-9_-]+", "-", (imo or name).upper())[:100],
+                "name": name,
+                "imo": imo,
+                "status": "Esperado",
+                "eta": eta,
+                "ata": ata,
+                "etb": etb,
+                "atb": atb,
+                "terminal": terminal,
+                "voyage": voyage,
+                "source": "Santos Brasil — API Lista de Atracação",
+            })
+
+        for value in obj.values():
+            if isinstance(value, (dict, list)):
+                walk(value)
+
+    walk(payload)
+    # Remove duplicatas pelo IMO/nome, mantendo o registro mais preenchido.
+    best = {}
+    for row in rows:
+        key = (row.get("imo") or normalize_ship_name(row.get("name"))).upper()
+        score = sum(bool(row.get(k)) for k in ("eta", "ata", "etb", "atb", "terminal", "voyage"))
+        old = best.get(key)
+        if old is None or score > old[0]:
+            best[key] = (score, row)
+    return [x[1] for x in best.values()]
+
+def fetch_santos_brasil_api():
+    """Consulta a API oficial do Santos Brasil para uma janela móvel de 45 dias."""
+    from datetime import timedelta
+    now = datetime.now().astimezone()
+    payload = {
+        "inicioLista": (now - timedelta(days=7)).isoformat(),
+        "fimLista": (now + timedelta(days=45)).isoformat(),
+    }
+    response = requests.post(
+        SANTOS_BRASIL_API,
+        headers={**HEADERS, "Content-Type": "application/json"},
+        json=payload,
+        timeout=45,
+        verify=False,
+    )
+    response.raise_for_status()
+    data = response.json()
+    return parse_santos_brasil_api_payload(data)
+
+def merge_cross_source_fields(all_rows):
+    """Cruza navios por IMO ou por nome normalizado, sem depender da ordem das fontes."""
+    index_imo = {}
+    index_name = {}
+    for ship in all_rows:
+        imo = clean(ship.get("imo")).upper()
+        name = normalize_ship_name(ship.get("name"))
+        if imo:
+            index_imo.setdefault(imo, []).append(ship)
+        if name:
+            index_name.setdefault(name, []).append(ship)
+
+    # A API do Santos Brasil pode publicar um nome sem IMO; o cruzamento por nome
+    # normalizado garante que "CMA CGM IRON --" e "CMA CGM IRON" sejam o mesmo navio.
+    for ship in all_rows:
+        matches = []
+        imo = clean(ship.get("imo")).upper()
+        name = normalize_ship_name(ship.get("name"))
+        if imo:
+            matches.extend(index_imo.get(imo, []))
+        if not matches and name:
+            matches.extend(index_name.get(name, []))
+
+        for other in matches:
+            if other is ship:
+                continue
+            for field in ("eta", "ata", "etb", "atb", "terminal", "voyage"):
+                if not ship.get(field) and other.get(field):
+                    ship[field] = other[field]
+            if other.get("source") and other.get("source") != ship.get("source"):
+                sources = ship.setdefault("sources", [])
+                if other["source"] not in sources:
+                    sources.append(other["source"])
+
+
 def main():
     all_rows = []
     errors = []
@@ -244,6 +373,16 @@ def main():
         except Exception as exc:
             errors.append(f"{source_name}: {exc}")
 
+    # Consulta adicional à API oficial do Santos Brasil. Ela existe especificamente
+    # para a Lista de Atracação e é mais confiável para ETA/ATA/ETB/ATB do que
+    # tentar ler a tabela dinâmica diretamente do HTML.
+    try:
+        api_rows = fetch_santos_brasil_api()
+        all_rows.extend(api_rows)
+        print(f"Santos Brasil API: {len(api_rows)} registros")
+    except Exception as exc:
+        errors.append(f"Santos Brasil API Lista de Atracação: {exc}")
+
     # Complementa os registros com a previsão de atracação (ETB) publicada
     # pela APS. Nunca substitui um ETB mais específico já obtido de outra fonte.
     for ship in all_rows:
@@ -257,6 +396,9 @@ def main():
                 ship["etb"] = match["etb"]
             if match.get("etb") and ship.get("source") != "APS — Atracações Programadas":
                 ship["scheduledSource"] = match["source"]
+
+    # Faz o cruzamento final por IMO/nome normalizado antes da consolidação.
+    merge_cross_source_fields(all_rows)
 
     priority = {
         "Atracado": 4,
