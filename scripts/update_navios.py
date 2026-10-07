@@ -119,6 +119,14 @@ def rows_from_html(html, source_status, source_name):
     return output
 
 
+def scheduled_name_key(value):
+    value = clean(value).upper()
+    value = re.sub(r"\s+\d{4,}.*$", "", value)
+    value = re.sub(r"\s+--.*$", "", value)
+    value = re.sub(r"[^A-Z0-9]+", " ", value)
+    return re.sub(r"\s+", " ", value).strip()
+
+
 def parse_scheduled_berthings(html):
     """Extrai a previsão de atracação da página 'Atracações Programadas'.
     A fonte publica Data + Hora + Navio + IMO + Evento. Para evento ATRACACAO,
@@ -206,14 +214,18 @@ def parse_scheduled_berthings(html):
             elif date:
                 etb = date
 
-            key = (imo or name).upper()
-            result[key] = {
+            record = {
                 "name": name,
                 "imo": imo,
                 "eta": eta,
                 "etb": etb,
                 "source": "APS — Atracações Programadas"
             }
+            # Indexar pelos dois identificadores: a APS pode publicar IMO em
+            # algumas tabelas e omiti-lo em outras.
+            if imo:
+                result[imo.upper()] = record
+            result[scheduled_name_key(name)] = record
 
     return result
 
@@ -253,12 +265,12 @@ def parse_santos_brasil_api_payload(payload):
                         return obj.get(original)
             return ""
 
-        name = clean(get("navio", "ship", "navionome"))
+        name = clean(get("navio", "ship", "navionome", "nomenavio", "navioViagemArmador", "navioViagem", "shipname"))
         imo = clean(get("imo"))
-        eta = clean(get("eta", "previsaochegada"))
-        ata = clean(get("ata"))
-        etb = clean(get("etb", "previsaodeatracacao"))
-        atb = clean(get("atb"))
+        eta = clean(get("eta", "previsaochegada", "dataeta", "etaData", "previsaoChegada"))
+        ata = clean(get("ata", "dataata"))
+        etb = clean(get("etb", "previsaodeatracacao", "dataetb", "previsaoEtb", "previsaoAtracacao"))
+        atb = clean(get("atb", "dataatb"))
         terminal = clean(get("terminal", "berco", "local"))
         voyage = clean(get("viagem", "voyage"))
 
@@ -387,7 +399,7 @@ def main():
     # pela APS. Nunca substitui um ETB mais específico já obtido de outra fonte.
     for ship in all_rows:
         key_imo = (ship.get("imo") or "").upper()
-        key_name = (ship.get("name") or "").upper()
+        key_name = scheduled_name_key(ship.get("name") or "")
         match = scheduled.get(key_imo) or scheduled.get(key_name)
         if match:
             if not ship.get("eta") and match.get("eta"):
@@ -452,7 +464,11 @@ def main():
             "errors": errors,
         }, file, ensure_ascii=False, indent=2)
 
+    etb_count = sum(bool(x.get("etb")) for x in result)
+    ata_count = sum(bool(x.get("ata")) for x in result)
+    atb_count = sum(bool(x.get("atb")) for x in result)
     print(f"Registros encontrados: {len(result)}")
+    print(f"Com ETB: {etb_count} | Com ATA: {ata_count} | Com ATB: {atb_count}")
 
     if errors:
         print("AVISOS:")
