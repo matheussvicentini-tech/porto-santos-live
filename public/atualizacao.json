@@ -1,6 +1,6 @@
 {
-  "updatedAt": "09/10/2026 18:59:37",
-  "total": 527,
+  "updatedAt": "09/10/2026 19:19:32",
+  "total": 526,
   "errors": [
     "Santos Brasil — Lista de Atracação: nenhuma tabela reconhecida",
     "Santos Brasil API Lista de Atracação: 401 Client Error: Unauthorized for url: https://integraaquiapi.santosbrasil.com.br/listaAtracacao/listaAtracacaoGeral"
