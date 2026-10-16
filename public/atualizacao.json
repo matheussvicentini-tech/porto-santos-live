@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16/10/2026 03:16:11",
-  "total": 427,
+  "updatedAt": "16/10/2026 03:54:24",
+  "total": 426,
   "errors": [
     "Santos Brasil — Lista de Atracação: nenhuma tabela reconhecida",
     "Santos Brasil API Lista de Atracação: 500 Server Error: Internal Server Error for url: https://integraaquiapi.santosbrasil.com.br/listaAtracacao/listaAtracacaoGeral"
