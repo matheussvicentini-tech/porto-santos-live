@@ -1,8 +1,8 @@
 {
-  "updatedAt": "02/11/2026 23:07:41",
+  "updatedAt": "02/11/2026 23:44:24",
   "total": 524,
   "errors": [
-    "Santos Brasil — Lista de Atracação: nenhuma tabela reconhecida",
+    "Santos Brasil — Lista de Atracação: HTTPSConnectionPool(host='www.santosbrasil.com.br', port=443): Read timed out. (read timeout=30)",
     "Santos Brasil API Lista de Atracação: 401 Client Error: Unauthorized for url: https://integraaquiapi.santosbrasil.com.br/listaAtracacao/listaAtracacaoGeral"
   ]
 }
