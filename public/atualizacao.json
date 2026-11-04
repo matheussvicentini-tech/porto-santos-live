@@ -1,7 +1,8 @@
 {
-  "updatedAt": "04/11/2026 12:34:09",
-  "total": 412,
+  "updatedAt": "04/11/2026 13:47:12",
+  "total": 438,
   "errors": [
+    "APS — Navios esperados: Passageiros: HTTPSConnectionPool(host='www.portodesantos.com.br', port=443): Read timed out. (read timeout=30)",
     "Santos Brasil — Lista de Atracação: nenhuma tabela reconhecida",
     "Santos Brasil API Lista de Atracação: 401 Client Error: Unauthorized for url: https://integraaquiapi.santosbrasil.com.br/listaAtracacao/listaAtracacaoGeral"
   ]
