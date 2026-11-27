@@ -14,7 +14,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "DONA-ISA",
@@ -31,7 +31,21 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
+  },
+  {
+    "id": "HAM-316",
+    "name": "HAM 316",
+    "imo": "",
+    "status": "Atracado",
+    "eta": "",
+    "ata": "",
+    "etb": "",
+    "atb": "",
+    "terminal": "ARMAZEM 31",
+    "voyage": "",
+    "source": "APS — Atracados Porto/Terminais",
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LOCAR-III",
@@ -48,7 +62,7 @@
     "sources": [
       "APS — Atracações programadas"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "PROF-W-BESNARD",
@@ -62,7 +76,7 @@
     "terminal": "ARMAZEM 5",
     "voyage": "",
     "source": "APS — Atracados Porto/Terminais",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "TIC-TAC",
@@ -76,7 +90,7 @@
     "terminal": "ARMAZEM 6",
     "voyage": "",
     "source": "APS — Atracados Porto/Terminais",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09909106",
@@ -90,7 +104,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "4959-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9693410",
@@ -104,7 +118,7 @@
     "terminal": "BARRA/37",
     "voyage": "4871/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9801263",
@@ -118,7 +132,7 @@
     "terminal": "39",
     "voyage": "5086/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09663362",
@@ -132,7 +146,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5263-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09292773",
@@ -146,7 +160,7 @@
     "terminal": "ALAMOA",
     "voyage": "5115-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09225653",
@@ -160,7 +174,7 @@
     "terminal": "TECON",
     "voyage": "5376-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9999004",
@@ -174,7 +188,7 @@
     "terminal": "OUT 2",
     "voyage": "9019/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01025916",
@@ -188,7 +202,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "5090-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "07319008",
@@ -202,7 +216,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "2285-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09573206",
@@ -216,7 +230,7 @@
     "terminal": "SAIPEN",
     "voyage": "3642-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9770634",
@@ -230,7 +244,7 @@
     "terminal": "37 1",
     "voyage": "5079/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09660358",
@@ -244,7 +258,7 @@
     "terminal": "ALAMOA",
     "voyage": "5184-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "1085071",
@@ -258,7 +272,7 @@
     "terminal": "39",
     "voyage": "5002/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09603233",
@@ -272,7 +286,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5387-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09667758",
@@ -286,7 +300,7 @@
     "terminal": "20/21",
     "voyage": "5285-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9667758",
@@ -300,7 +314,7 @@
     "terminal": "SAB 3",
     "voyage": "5009/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09431769",
@@ -314,7 +328,7 @@
     "terminal": "TECON",
     "voyage": "5310-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9492270",
@@ -328,7 +342,7 @@
     "terminal": "AL 1",
     "voyage": "4889/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09994840",
@@ -342,7 +356,7 @@
     "terminal": "CODESP-USIMINAS",
     "voyage": "4423-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9288435",
@@ -356,7 +370,7 @@
     "terminal": "TEG",
     "voyage": "5097/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09516222",
@@ -370,7 +384,7 @@
     "terminal": "ALA.-I.B.",
     "voyage": "5344-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09304215",
@@ -384,7 +398,7 @@
     "terminal": "35/37",
     "voyage": "5212-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9718739",
@@ -398,7 +412,7 @@
     "terminal": "16/19",
     "voyage": "5040/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09961922",
@@ -412,7 +426,7 @@
     "terminal": "TEG",
     "voyage": "5261-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09401960",
@@ -426,7 +440,7 @@
     "terminal": "TEG",
     "voyage": "5272-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09644237",
@@ -440,7 +454,7 @@
     "terminal": "ALAMOA",
     "voyage": "5320-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9939577",
@@ -454,7 +468,7 @@
     "terminal": "OE/AGEO",
     "voyage": "5015/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9289312",
@@ -468,7 +482,7 @@
     "terminal": "12A/13/14",
     "voyage": "4939/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09838228",
@@ -482,7 +496,7 @@
     "terminal": "ALAMOA",
     "voyage": "4206-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09617258",
@@ -496,7 +510,7 @@
     "terminal": "19",
     "voyage": "5248-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09625384",
@@ -510,7 +524,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5292-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09531662",
@@ -524,7 +538,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "5235-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09713193",
@@ -538,7 +552,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5056-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09582958",
@@ -552,7 +566,7 @@
     "terminal": "39",
     "voyage": "5338-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09291406",
@@ -566,7 +580,7 @@
     "terminal": "16/17-19",
     "voyage": "5254-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9788576",
@@ -580,7 +594,7 @@
     "terminal": "AL 3",
     "voyage": "5049/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09519107",
@@ -594,7 +608,7 @@
     "terminal": "TEVI",
     "voyage": "5179-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09143207",
@@ -608,7 +622,7 @@
     "terminal": "ALA.-I.B.-DOW",
     "voyage": "5302-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9379909",
@@ -622,7 +636,7 @@
     "terminal": "ILHA SP/BC/OE/AGEO/AL 3/4",
     "voyage": "4864/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9989223",
@@ -636,7 +650,7 @@
     "terminal": "ILHA SP/BC",
     "voyage": "4981/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09519119",
@@ -650,7 +664,7 @@
     "terminal": "TEVI",
     "voyage": "5180-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BRITOU12",
@@ -664,7 +678,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "9003-8 2025",
     "source": "APS — Navios esperados: Passageiros",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09674218",
@@ -678,7 +692,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "5359-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BUENAVISTA",
@@ -692,7 +706,7 @@
     "terminal": "PASSAGEIROS",
     "voyage": "4746-- 2026",
     "source": "APS — Navios esperados: Passageiros",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09633965",
@@ -706,7 +720,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5383-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09719874",
@@ -720,7 +734,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5435-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09969869",
@@ -734,7 +748,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5388-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09230995",
@@ -748,7 +762,7 @@
     "terminal": "29",
     "voyage": "5259-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09555967",
@@ -762,7 +776,7 @@
     "terminal": "SAIPEN",
     "voyage": "4716-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09398668",
@@ -776,7 +790,7 @@
     "terminal": "39",
     "voyage": "5287-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09360441",
@@ -790,7 +804,7 @@
     "terminal": "ILHA",
     "voyage": "5331-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09416381",
@@ -804,7 +818,7 @@
     "terminal": "ALAMOA",
     "voyage": "5011-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09363950",
@@ -818,7 +832,7 @@
     "terminal": "TEVI",
     "voyage": "5380-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09996680",
@@ -832,7 +846,7 @@
     "terminal": "TECON",
     "voyage": "5140-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9996680",
@@ -846,7 +860,7 @@
     "terminal": "TECON",
     "voyage": "5135/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09996678",
@@ -860,7 +874,7 @@
     "terminal": "TECON",
     "voyage": "3415-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01093482",
@@ -874,7 +888,7 @@
     "terminal": "TECON",
     "voyage": "5307-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09996769",
@@ -888,7 +902,7 @@
     "terminal": "TECON",
     "voyage": "5373-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09996745",
@@ -902,7 +916,7 @@
     "terminal": "TECON",
     "voyage": "5303-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09732606",
@@ -916,7 +930,7 @@
     "terminal": "TECON",
     "voyage": "5304-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09687526",
@@ -930,7 +944,7 @@
     "terminal": "TECON",
     "voyage": "5378-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9687526",
@@ -944,7 +958,7 @@
     "terminal": "BTP",
     "voyage": "4484/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9947263",
@@ -958,7 +972,7 @@
     "terminal": "TIPLAN",
     "voyage": "4741/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09881653",
@@ -972,7 +986,7 @@
     "terminal": "TEVI",
     "voyage": "4401-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09945863",
@@ -986,7 +1000,7 @@
     "terminal": "TECON",
     "voyage": "5300-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09872195",
@@ -1000,7 +1014,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "4363-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09945851",
@@ -1014,7 +1028,7 @@
     "terminal": "TECON",
     "voyage": "5366-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09641235",
@@ -1028,7 +1042,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "4944-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01052024",
@@ -1042,7 +1056,7 @@
     "terminal": "35/37",
     "voyage": "5080-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "1052024",
@@ -1056,7 +1070,7 @@
     "terminal": "34/35 2",
     "voyage": "5072/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01048372",
@@ -1070,7 +1084,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5324-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01015313",
@@ -1084,7 +1098,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "5361-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09723241",
@@ -1098,7 +1112,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "4846-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09229829",
@@ -1112,7 +1126,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "4998-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09324722",
@@ -1126,7 +1140,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5266-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09697222",
@@ -1140,7 +1154,7 @@
     "terminal": "ALAMOA",
     "voyage": "4518-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09613317",
@@ -1154,7 +1168,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5341-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9543782",
@@ -1168,7 +1182,7 @@
     "terminal": "32/33",
     "voyage": "4961/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09808326",
@@ -1182,7 +1196,7 @@
     "terminal": "DOW",
     "voyage": "5404-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09936783",
@@ -1196,7 +1210,7 @@
     "terminal": "38",
     "voyage": "4892-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09729881",
@@ -1210,7 +1224,7 @@
     "terminal": "35/37",
     "voyage": "5234-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09659775",
@@ -1224,7 +1238,7 @@
     "terminal": "12A - TEAG",
     "voyage": "5253-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999320",
@@ -1238,7 +1252,7 @@
     "terminal": "AGEO(ILHA)",
     "voyage": "5336-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999304",
@@ -1252,7 +1266,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "4537-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999207",
@@ -1266,7 +1280,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "4538-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09393450",
@@ -1280,7 +1294,7 @@
     "terminal": "23",
     "voyage": "5050-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9250701",
@@ -1294,7 +1308,7 @@
     "terminal": "12A/13/14",
     "voyage": "5089/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09143556",
@@ -1308,7 +1322,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5396-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09602356",
@@ -1322,7 +1336,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5274-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9652492",
@@ -1336,7 +1350,7 @@
     "terminal": "129/16",
     "voyage": "4980/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09593751",
@@ -1350,7 +1364,7 @@
     "terminal": "16/17-19",
     "voyage": "5256-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09641807",
@@ -1364,7 +1378,7 @@
     "terminal": "23",
     "voyage": "5316-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01014541",
@@ -1378,7 +1392,7 @@
     "terminal": "35/37",
     "voyage": "5186-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09981300",
@@ -1392,7 +1406,7 @@
     "terminal": "35/37",
     "voyage": "5185-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09572082",
@@ -1406,7 +1420,7 @@
     "terminal": "23",
     "voyage": "5332-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09793923",
@@ -1420,7 +1434,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "4082-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01049338",
@@ -1434,7 +1448,7 @@
     "terminal": "23",
     "voyage": "5068-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09850525",
@@ -1448,7 +1462,7 @@
     "terminal": "TECON",
     "voyage": "4986-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09850800",
@@ -1462,7 +1476,7 @@
     "terminal": "TECON",
     "voyage": "5194-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9850795",
@@ -1476,7 +1490,7 @@
     "terminal": "TECON",
     "voyage": "4976/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09913327",
@@ -1490,7 +1504,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5196-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09728497",
@@ -1504,7 +1518,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5281-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9589267",
@@ -1518,7 +1532,7 @@
     "terminal": "37",
     "voyage": "5043/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09671072",
@@ -1532,7 +1546,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5322-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09603221",
@@ -1546,7 +1560,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5170-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09588304",
@@ -1560,7 +1574,7 @@
     "terminal": "TEG",
     "voyage": "5251-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09574860",
@@ -1574,7 +1588,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "5329-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09835953",
@@ -1588,7 +1602,7 @@
     "terminal": "20/21",
     "voyage": "5430-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9845178",
@@ -1602,7 +1616,7 @@
     "terminal": "AL 3/4",
     "voyage": "4933/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09845180",
@@ -1614,9 +1628,9 @@
     "etb": "",
     "atb": "",
     "terminal": "ALAMOA",
-    "voyage": "3667-0 2026",
+    "voyage": "3767-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09693422",
@@ -1630,7 +1644,7 @@
     "terminal": "19",
     "voyage": "5124-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9693422",
@@ -1644,7 +1658,7 @@
     "terminal": "16/19",
     "voyage": "5124/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09391361",
@@ -1658,7 +1672,7 @@
     "terminal": "ALAMOA",
     "voyage": "4301-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09458157",
@@ -1672,7 +1686,7 @@
     "terminal": "ALAMOA",
     "voyage": "5363-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09311191",
@@ -1686,7 +1700,7 @@
     "terminal": "TERMAG",
     "voyage": "5333-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9355252",
@@ -1700,7 +1714,7 @@
     "terminal": "TEV",
     "voyage": "4907/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09680712",
@@ -1714,7 +1728,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "5216-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09246607",
@@ -1728,7 +1742,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "5218-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09437919",
@@ -1742,7 +1756,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "5414-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09253208",
@@ -1756,7 +1770,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "5413-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09733612",
@@ -1770,7 +1784,7 @@
     "terminal": "38",
     "voyage": "5193-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09718698",
@@ -1784,7 +1798,7 @@
     "terminal": "SUG.26",
     "voyage": "5402-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09976513",
@@ -1798,7 +1812,7 @@
     "terminal": "35/37",
     "voyage": "5088-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01027380",
@@ -1812,7 +1826,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5264-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09976408",
@@ -1826,7 +1840,7 @@
     "terminal": "35/37",
     "voyage": "5262-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09976070",
@@ -1840,7 +1854,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5082-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09976422",
@@ -1854,7 +1868,7 @@
     "terminal": "35/37",
     "voyage": "5277-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09256482",
@@ -1868,7 +1882,7 @@
     "terminal": "TECON",
     "voyage": "5377-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "GUAPORE",
@@ -1882,21 +1896,7 @@
     "terminal": "27",
     "voyage": "9004-6 2024",
     "source": "APS — Navios esperados: Passageiros",
-    "updatedAt": "27/11/2026 02:50:40"
-  },
-  {
-    "id": "09160449",
-    "name": "HAM 316",
-    "imo": "09160449",
-    "status": "Esperado",
-    "eta": "28/09/2026 06:30:00",
-    "ata": "",
-    "etb": "",
-    "atb": "",
-    "terminal": "CODESP-RUA",
-    "voyage": "4451-- 2026",
-    "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9605176",
@@ -1910,7 +1910,7 @@
     "terminal": "COSIPA",
     "voyage": "5019/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9328558",
@@ -1924,7 +1924,7 @@
     "terminal": "12A/13/14",
     "voyage": "4926/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09500314",
@@ -1938,7 +1938,7 @@
     "terminal": "38",
     "voyage": "5273-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09323522",
@@ -1952,7 +1952,7 @@
     "terminal": "29-TECON",
     "voyage": "5177-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09260627",
@@ -1966,7 +1966,7 @@
     "terminal": "16/17-19",
     "voyage": "5252-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9791157",
@@ -1980,7 +1980,7 @@
     "terminal": "AL 3/4",
     "voyage": "4938/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09762962",
@@ -1994,7 +1994,7 @@
     "terminal": "TRSP",
     "voyage": "2710-2 2024",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09407392",
@@ -2008,7 +2008,7 @@
     "terminal": "ALAMOA",
     "voyage": "5201-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09384980",
@@ -2022,7 +2022,7 @@
     "terminal": "20/21",
     "voyage": "5200-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09347578",
@@ -2036,7 +2036,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5171-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09347554",
@@ -2050,7 +2050,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5397-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09079212",
@@ -2064,7 +2064,7 @@
     "terminal": "TEVI",
     "voyage": "5342-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09890587",
@@ -2078,7 +2078,7 @@
     "terminal": "ALAMOA",
     "voyage": "5242-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09503782",
@@ -2092,7 +2092,7 @@
     "terminal": "39",
     "voyage": "5286-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09796195",
@@ -2106,7 +2106,7 @@
     "terminal": "TERMAG",
     "voyage": "5317-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09723655",
@@ -2120,7 +2120,7 @@
     "terminal": "TGG",
     "voyage": "5249-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09413523",
@@ -2134,7 +2134,7 @@
     "terminal": "ALAMOA",
     "voyage": "5362-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "JANSENU11",
@@ -2148,7 +2148,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "9002-1 2025",
     "source": "APS — Navios esperados: Passageiros",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09349540",
@@ -2162,7 +2162,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5400-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09763992",
@@ -2176,7 +2176,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5431-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09287194",
@@ -2190,7 +2190,7 @@
     "terminal": "16/17-19",
     "voyage": "5250-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09950911",
@@ -2204,7 +2204,7 @@
     "terminal": "TGG",
     "voyage": "3466-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09291121",
@@ -2218,7 +2218,7 @@
     "terminal": "12A-13/14-20/21",
     "voyage": "4414-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09840661",
@@ -2232,7 +2232,7 @@
     "terminal": "16/17-19",
     "voyage": "5283-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09494400",
@@ -2246,7 +2246,7 @@
     "terminal": "TGG",
     "voyage": "5128-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9667368",
@@ -2260,7 +2260,7 @@
     "terminal": "39",
     "voyage": "4854/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09768007",
@@ -2274,7 +2274,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5427-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09529607",
@@ -2288,7 +2288,7 @@
     "terminal": "SUG.26",
     "voyage": "5291-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09307243",
@@ -2302,7 +2302,7 @@
     "terminal": "TECON",
     "voyage": "5311-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09332872",
@@ -2316,7 +2316,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5070-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9303871",
@@ -2330,7 +2330,7 @@
     "terminal": "16/TIPLAN/12A",
     "voyage": "5190/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01060435",
@@ -2344,7 +2344,7 @@
     "terminal": "TGG",
     "voyage": "5267-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01017763",
@@ -2358,7 +2358,7 @@
     "terminal": "T.E.A.G.",
     "voyage": "5282-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9999259",
@@ -2372,7 +2372,7 @@
     "terminal": "AL 2/SAB 1",
     "voyage": "5012/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999230",
@@ -2386,7 +2386,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "5013-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9999230",
@@ -2400,7 +2400,7 @@
     "terminal": "AL 2/SAB 1",
     "voyage": "5013/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09471898",
@@ -2414,7 +2414,7 @@
     "terminal": "TECON",
     "voyage": "5295-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09351799",
@@ -2428,7 +2428,7 @@
     "terminal": "TECON",
     "voyage": "5294-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9351799",
@@ -2442,7 +2442,7 @@
     "terminal": "TECON",
     "voyage": "4970/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09327669",
@@ -2456,7 +2456,7 @@
     "terminal": "TECON",
     "voyage": "5293-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09803340",
@@ -2470,7 +2470,7 @@
     "terminal": "ULTRAF - 16/17",
     "voyage": "5284-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9803340",
@@ -2484,7 +2484,7 @@
     "terminal": "TMG",
     "voyage": "4634/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09631125",
@@ -2498,7 +2498,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5381-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09894806",
@@ -2512,7 +2512,7 @@
     "terminal": "38",
     "voyage": "5339-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999277",
@@ -2526,7 +2526,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "4718-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MACA",
@@ -2540,7 +2540,7 @@
     "terminal": "27",
     "voyage": "9012-7 2025",
     "source": "APS — Navios esperados: Passageiros",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09928188",
@@ -2554,7 +2554,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5173-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09525388",
@@ -2568,7 +2568,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5439-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09969065",
@@ -2582,7 +2582,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5297-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09991202",
@@ -2596,7 +2596,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5351-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09694581",
@@ -2610,7 +2610,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5354-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09343974",
@@ -2624,7 +2624,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5382-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09624299",
@@ -2638,7 +2638,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5148-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09526899",
@@ -2652,7 +2652,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5429-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09527063",
@@ -2666,7 +2666,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5357-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09526942",
@@ -2680,7 +2680,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5425-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09527051",
@@ -2694,7 +2694,7 @@
     "terminal": "TECON",
     "voyage": "5368-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09526966",
@@ -2708,7 +2708,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5298-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09526916",
@@ -2722,7 +2722,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5299-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09527037",
@@ -2736,7 +2736,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5312-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09526954",
@@ -2750,7 +2750,7 @@
     "terminal": "TECON",
     "voyage": "5349-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09526904",
@@ -2764,7 +2764,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5352-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09348065",
@@ -2778,7 +2778,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5390-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09348053",
@@ -2792,7 +2792,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5394-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09786097",
@@ -2806,7 +2806,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5417-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09632480",
@@ -2820,7 +2820,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5416-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9632480",
@@ -2834,7 +2834,7 @@
     "terminal": "BTP",
     "voyage": "4901/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09717216",
@@ -2848,7 +2848,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5401-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09717228",
@@ -2862,7 +2862,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5313-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09344681",
@@ -2876,7 +2876,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5348-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9344681",
@@ -2890,7 +2890,7 @@
     "terminal": "BTP",
     "voyage": "5151/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09716030",
@@ -2904,7 +2904,7 @@
     "terminal": "12A-13/14-20/21",
     "voyage": "5246-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09247754",
@@ -2918,7 +2918,7 @@
     "terminal": "TECON",
     "voyage": "5350-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MARIOSEIXAS",
@@ -2932,7 +2932,7 @@
     "terminal": "27",
     "voyage": "9016-2 2025",
     "source": "APS — Navios esperados: Passageiros",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09275141",
@@ -2946,7 +2946,7 @@
     "terminal": "19",
     "voyage": "5071-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09401075",
@@ -2960,7 +2960,7 @@
     "terminal": "TECON",
     "voyage": "4913-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9356153",
@@ -2974,7 +2974,7 @@
     "terminal": "TECON",
     "voyage": "5136/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09356141",
@@ -2988,7 +2988,7 @@
     "terminal": "TECON",
     "voyage": "5305-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09424895",
@@ -3002,7 +3002,7 @@
     "terminal": "SAIPEN",
     "voyage": "5337-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09950442",
@@ -3016,7 +3016,7 @@
     "terminal": "13/14 - 23",
     "voyage": "5268-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09339832",
@@ -3030,7 +3030,7 @@
     "terminal": "COD-TEV-COS",
     "voyage": "5181-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9364447",
@@ -3044,7 +3044,7 @@
     "terminal": "BARRA/CUTRALE",
     "voyage": "5003/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9381213",
@@ -3058,7 +3058,7 @@
     "terminal": "12A/13/14",
     "voyage": "4796/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09723992",
@@ -3072,7 +3072,7 @@
     "terminal": "30/31",
     "voyage": "5319-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09942689",
@@ -3086,7 +3086,7 @@
     "terminal": "ILHA",
     "voyage": "5326-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09271999",
@@ -3100,7 +3100,7 @@
     "terminal": "DOW",
     "voyage": "5315-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01016692",
@@ -3114,7 +3114,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5301-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09770751",
@@ -3128,7 +3128,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5224-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09605267",
@@ -3142,7 +3142,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5077-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09756729",
@@ -3156,7 +3156,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5146-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09770749",
@@ -3170,7 +3170,7 @@
     "terminal": "B.T.P./TECON",
     "voyage": "4022-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09369734",
@@ -3184,7 +3184,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5225-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09289087",
@@ -3198,7 +3198,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "4992-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9289087",
@@ -3212,7 +3212,7 @@
     "terminal": "BTP",
     "voyage": "4992/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09785471",
@@ -3226,7 +3226,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5054-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9705005",
@@ -3240,7 +3240,7 @@
     "terminal": "BTP",
     "voyage": "4996/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09444285",
@@ -3254,7 +3254,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "3760-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09463047",
@@ -3268,7 +3268,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5156-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01016666",
@@ -3282,7 +3282,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "4486-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01031197",
@@ -3296,7 +3296,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5227-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09702077",
@@ -3310,7 +3310,7 @@
     "terminal": "TECON",
     "voyage": "5215-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09720512",
@@ -3324,7 +3324,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5084-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9720512",
@@ -3338,7 +3338,7 @@
     "terminal": "BTP/TECON/EMBRAP",
     "voyage": "4955/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09278155",
@@ -3352,7 +3352,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5053-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9278155",
@@ -3366,7 +3366,7 @@
     "terminal": "BTP",
     "voyage": "5155/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09393319",
@@ -3380,7 +3380,7 @@
     "terminal": "TECON",
     "voyage": "5214-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-SEAVIEW",
@@ -3394,7 +3394,7 @@
     "terminal": "PASSAGEIROS",
     "voyage": "4941-8 2026",
     "source": "APS — Navios esperados: Passageiros",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-VIRTUOSA",
@@ -3408,7 +3408,7 @@
     "terminal": "PASSAGEIROS",
     "voyage": "5027-8 2026",
     "source": "APS — Navios esperados: Passageiros",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09288409",
@@ -3422,7 +3422,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "4990-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09774563",
@@ -3436,7 +3436,7 @@
     "terminal": "ILHA",
     "voyage": "5325-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999322",
@@ -3450,7 +3450,7 @@
     "terminal": "SAIPEN",
     "voyage": "5047-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9324849",
@@ -3464,7 +3464,7 @@
     "terminal": "TECON",
     "voyage": "5111/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09478494",
@@ -3478,7 +3478,7 @@
     "terminal": "TECON",
     "voyage": "5308-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09324837",
@@ -3492,7 +3492,7 @@
     "terminal": "TECON",
     "voyage": "5309-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09612765",
@@ -3506,7 +3506,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5384-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09612789",
@@ -3520,7 +3520,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "4943-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9612777",
@@ -3534,7 +3534,7 @@
     "terminal": "EMBRAPORT",
     "voyage": "4717/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09473705",
@@ -3548,7 +3548,7 @@
     "terminal": "20/21",
     "voyage": "5199-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09979474",
@@ -3562,7 +3562,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5279-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09673630",
@@ -3576,7 +3576,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5149-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09705304",
@@ -3590,7 +3590,7 @@
     "terminal": "SAIPEN",
     "voyage": "5107-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09290464",
@@ -3604,7 +3604,7 @@
     "terminal": "TECON",
     "voyage": "5370-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09416991",
@@ -3618,7 +3618,7 @@
     "terminal": "TECON",
     "voyage": "5372-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09584229",
@@ -3632,7 +3632,7 @@
     "terminal": "35/37",
     "voyage": "5238-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09841952",
@@ -3646,7 +3646,7 @@
     "terminal": "TERMAG",
     "voyage": "5334-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09357092",
@@ -3660,7 +3660,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5119-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9464510",
@@ -3674,7 +3674,7 @@
     "terminal": "BARRA/19",
     "voyage": "4979/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09937323",
@@ -3688,7 +3688,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5347-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09937347",
@@ -3702,7 +3702,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5426-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09564384",
@@ -3716,7 +3716,7 @@
     "terminal": "CUTRALE",
     "voyage": "5440-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09663099",
@@ -3730,7 +3730,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "5328-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09272929",
@@ -3744,7 +3744,7 @@
     "terminal": "ALAMOA",
     "voyage": "5330-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09872975",
@@ -3758,7 +3758,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5270-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09788552",
@@ -3772,7 +3772,7 @@
     "terminal": "ALAMOA",
     "voyage": "4542-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09431460",
@@ -3786,7 +3786,7 @@
     "terminal": "TECONDI",
     "voyage": "5222-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09306196",
@@ -3800,7 +3800,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "4839-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09793909",
@@ -3814,7 +3814,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "4993-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09569956",
@@ -3828,7 +3828,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "5327-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09603219",
@@ -3842,7 +3842,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5389-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999311",
@@ -3856,7 +3856,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "4720-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09372810",
@@ -3870,7 +3870,7 @@
     "terminal": "TEVI",
     "voyage": "5365-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09351763",
@@ -3884,7 +3884,7 @@
     "terminal": "CODESP.-35/37",
     "voyage": "5275-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09735098",
@@ -3898,7 +3898,7 @@
     "terminal": "AR.12A - BG/ITA",
     "voyage": "3480-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09312444",
@@ -3912,7 +3912,7 @@
     "terminal": "ALAMOA",
     "voyage": "5364-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09644251",
@@ -3926,7 +3926,7 @@
     "terminal": "20/21",
     "voyage": "5244-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09546784",
@@ -3940,7 +3940,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5085-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9546784",
@@ -3954,7 +3954,7 @@
     "terminal": "TIPLAN",
     "voyage": "5085/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01094644",
@@ -3968,7 +3968,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5280-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "1021764",
@@ -3982,7 +3982,7 @@
     "terminal": "TIPLAN",
     "voyage": "4919/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09523146",
@@ -3996,7 +3996,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5195-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09929041",
@@ -4010,7 +4010,7 @@
     "terminal": "SUG.26",
     "voyage": "3310-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9941972",
@@ -4024,7 +4024,7 @@
     "terminal": "TEG",
     "voyage": "5067/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09489912",
@@ -4038,7 +4038,7 @@
     "terminal": "ALAMOA",
     "voyage": "5243-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999318",
@@ -4052,7 +4052,7 @@
     "terminal": "AGEO(ILHA)",
     "voyage": "4676-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09144354",
@@ -4066,7 +4066,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "5245-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09622241",
@@ -4080,7 +4080,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5296-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9622239",
@@ -4094,7 +4094,7 @@
     "terminal": "EMBRAPORT",
     "voyage": "5121/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9622215",
@@ -4108,7 +4108,7 @@
     "terminal": "EMBRAPORT",
     "voyage": "5123/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09622203",
@@ -4122,7 +4122,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5436-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09793911",
@@ -4136,7 +4136,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5428-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09444845",
@@ -4150,7 +4150,7 @@
     "terminal": "TECON",
     "voyage": "5405-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09786736",
@@ -4164,7 +4164,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5069-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09258387",
@@ -4178,7 +4178,7 @@
     "terminal": "SAIPEN",
     "voyage": "4715-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09364825",
@@ -4192,7 +4192,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5209-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09245249",
@@ -4206,7 +4206,7 @@
     "terminal": "T.E.A.G.",
     "voyage": "5276-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9870874",
@@ -4220,7 +4220,7 @@
     "terminal": "37 1",
     "voyage": "4882/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09407158",
@@ -4234,7 +4234,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "4988-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09407160",
@@ -4248,7 +4248,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5385-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09602875",
@@ -4262,7 +4262,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5399-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9381873",
@@ -4276,7 +4276,7 @@
     "terminal": "31",
     "voyage": "5004/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09665554",
@@ -4290,7 +4290,7 @@
     "terminal": "12A-13/14-20/21",
     "voyage": "5258-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "1026520",
@@ -4304,7 +4304,7 @@
     "terminal": "37",
     "voyage": "5091/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09971458",
@@ -4318,7 +4318,7 @@
     "terminal": "39",
     "voyage": "5269-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09342750",
@@ -4332,7 +4332,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "4840-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9342750",
@@ -4346,7 +4346,7 @@
     "terminal": "TIPLAN",
     "voyage": "4840/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9937309",
@@ -4360,7 +4360,7 @@
     "terminal": "23",
     "voyage": "5164/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09624330",
@@ -4374,7 +4374,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5265-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09949467",
@@ -4388,7 +4388,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5432-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09490870",
@@ -4402,7 +4402,7 @@
     "terminal": "19",
     "voyage": "5211-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9956903",
@@ -4416,7 +4416,7 @@
     "terminal": "AL 3/4",
     "voyage": "4920/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09861469",
@@ -4430,7 +4430,7 @@
     "terminal": "35/37",
     "voyage": "5340-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09960239",
@@ -4444,7 +4444,7 @@
     "terminal": "29/30-33",
     "voyage": "5360-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09582453",
@@ -4458,7 +4458,7 @@
     "terminal": "CUTRALE",
     "voyage": "5343-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01070650",
@@ -4472,7 +4472,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5257-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09628817",
@@ -4486,7 +4486,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "5321-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09694531",
@@ -4500,7 +4500,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "4945-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9629469",
@@ -4514,7 +4514,7 @@
     "terminal": "TECON",
     "voyage": "5132/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09331402",
@@ -4528,7 +4528,7 @@
     "terminal": "ALAMOA",
     "voyage": "5182-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09836701",
@@ -4542,7 +4542,7 @@
     "terminal": "TERMAG",
     "voyage": "5000-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999188",
@@ -4556,7 +4556,7 @@
     "terminal": "SAIPEN",
     "voyage": "2642-3 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09447859",
@@ -4570,7 +4570,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5433-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09957593",
@@ -4584,7 +4584,7 @@
     "terminal": "39",
     "voyage": "5166-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9979357",
@@ -4598,7 +4598,7 @@
     "terminal": "BARRA/19/16/12A",
     "voyage": "5168/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01053585",
@@ -4612,7 +4612,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "5108-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09841287",
@@ -4626,7 +4626,7 @@
     "terminal": "39",
     "voyage": "5260-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09763887",
@@ -4640,7 +4640,7 @@
     "terminal": "20/21",
     "voyage": "5288-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09466001",
@@ -4654,7 +4654,7 @@
     "terminal": "ALAMOA",
     "voyage": "5323-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09941374",
@@ -4668,7 +4668,7 @@
     "terminal": "16/17-19",
     "voyage": "5255-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09999154",
@@ -4682,7 +4682,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "4545-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9999154",
@@ -4696,7 +4696,7 @@
     "terminal": "SAB 3",
     "voyage": "5116/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "1085966",
@@ -4710,7 +4710,7 @@
     "terminal": "32 OU 19",
     "voyage": "4952/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09484235",
@@ -4724,7 +4724,7 @@
     "terminal": "35/37",
     "voyage": "5358-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09125956",
@@ -4738,7 +4738,7 @@
     "terminal": "CODESP-RUA",
     "voyage": "3673-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09474254",
@@ -4752,7 +4752,7 @@
     "terminal": "29/30",
     "voyage": "5189-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09402938",
@@ -4766,7 +4766,7 @@
     "terminal": "SUG.26",
     "voyage": "5247-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09625396",
@@ -4780,7 +4780,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5408-1 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9625396",
@@ -4794,7 +4794,7 @@
     "terminal": "BTP/EMBRAPORT",
     "voyage": "5117/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01067029",
@@ -4808,7 +4808,7 @@
     "terminal": "12A-13/14-20/21",
     "voyage": "4726-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09902275",
@@ -4822,7 +4822,7 @@
     "terminal": "35/37",
     "voyage": "5204-7 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09470492",
@@ -4836,7 +4836,7 @@
     "terminal": "12A-13/14-20/21",
     "voyage": "5290-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09448322",
@@ -4850,7 +4850,7 @@
     "terminal": "ALAMOA",
     "voyage": "5241-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09332212",
@@ -4864,7 +4864,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5073-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9332212",
@@ -4878,7 +4878,7 @@
     "terminal": "TIPLAN",
     "voyage": "5073/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09654464",
@@ -4892,7 +4892,7 @@
     "terminal": "EPORT 1/TECON 1",
     "voyage": "4344-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09865764",
@@ -4906,7 +4906,7 @@
     "terminal": "ALAMOA",
     "voyage": "5239-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9865764",
@@ -4920,7 +4920,7 @@
     "terminal": "AL 1",
     "voyage": "5078/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "01078937",
@@ -4934,7 +4934,7 @@
     "terminal": "SAIPEN",
     "voyage": "5074-6 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "08650473",
@@ -4948,7 +4948,7 @@
     "terminal": "SAIPEN",
     "voyage": "4522-5 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09494371",
@@ -4962,7 +4962,7 @@
     "terminal": "TERMAG",
     "voyage": "4936-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09630420",
@@ -4976,7 +4976,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "5438-8 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09624110",
@@ -4990,7 +4990,7 @@
     "terminal": "12A-13/14-20/21",
     "voyage": "5278-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09312573",
@@ -5004,7 +5004,7 @@
     "terminal": "TECON",
     "voyage": "5371-- 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "9954967",
@@ -5018,7 +5018,7 @@
     "terminal": "TIPLAN",
     "voyage": "5036/2026",
     "source": "APS — Atracações programadas",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09734721",
@@ -5032,7 +5032,7 @@
     "terminal": "TERMAG",
     "voyage": "5105-9 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09734836",
@@ -5046,7 +5046,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5345-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09518191",
@@ -5060,7 +5060,7 @@
     "terminal": "TERMAG",
     "voyage": "4745-4 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09990167",
@@ -5074,7 +5074,7 @@
     "terminal": "TECONDI",
     "voyage": "5318-2 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "09668893",
@@ -5088,7 +5088,7 @@
     "terminal": "TGG",
     "voyage": "5125-0 2026",
     "source": "APS — Navios esperados: Carga",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ABRACADABRA",
@@ -5105,7 +5105,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "AGRI-BRIGHT",
@@ -5122,7 +5122,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ALPHA-SPIRIT",
@@ -5139,7 +5139,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "AMAZON-VICTORY",
@@ -5156,7 +5156,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ANADOLU-S",
@@ -5174,7 +5174,7 @@
       "APS — Navios esperados: Carga",
       "APS — Atracações programadas"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ANDROUSA",
@@ -5191,7 +5191,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ARENDAL",
@@ -5208,7 +5208,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ARROW-LADY",
@@ -5225,7 +5225,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ASL-SAKURA",
@@ -5242,7 +5242,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ASTRAEA-SB",
@@ -5259,7 +5259,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ATHINA-M",
@@ -5276,7 +5276,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BAO-RUI-LING",
@@ -5293,7 +5293,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BARTOLOMEU-DIAS",
@@ -5310,7 +5310,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BC-MIRABEL",
@@ -5327,7 +5327,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BERGE-ANNUPURI",
@@ -5344,7 +5344,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BESKIDY",
@@ -5361,7 +5361,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BETTYS-LOVE",
@@ -5378,7 +5378,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BOSPORUS-HIGHWAY",
@@ -5395,7 +5395,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "BOW-FLORA",
@@ -5412,7 +5412,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CAP-SAN-TAINARO",
@@ -5429,7 +5429,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CARLOS-FISCHER",
@@ -5446,7 +5446,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CBL-SUMMER",
@@ -5463,7 +5463,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CERRADO",
@@ -5480,7 +5480,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CLARITY",
@@ -5497,7 +5497,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CMA-CGM-COBALT",
@@ -5515,7 +5515,7 @@
       "APS — Navios esperados: Carga",
       "APS — Atracações programadas"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CMA-CGM-PACIFIC",
@@ -5532,7 +5532,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CMA-CGM-THORIUM",
@@ -5549,7 +5549,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CMA-CGM-YUKON",
@@ -5566,7 +5566,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "COSCO-SHIPPING-MEXICO",
@@ -5583,7 +5583,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "COSTA-DIADEMA",
@@ -5600,7 +5600,7 @@
     "sources": [
       "APS — Navios esperados: Passageiros"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CSPC-PISCES",
@@ -5618,7 +5618,7 @@
       "APS — Navios esperados: Carga",
       "APS — Atracações programadas"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CSPC-RUBY",
@@ -5635,7 +5635,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "CZECH",
@@ -5652,7 +5652,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "DANNY",
@@ -5669,7 +5669,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "DELICATA",
@@ -5686,7 +5686,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "DIAMOND-TRADER",
@@ -5703,7 +5703,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "DIONE",
@@ -5720,7 +5720,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "DL-DAHLIA",
@@ -5737,7 +5737,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "DRAWSKO",
@@ -5754,7 +5754,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ECO-COLONEL",
@@ -5771,7 +5771,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "EKATERINA",
@@ -5788,7 +5788,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "EL-JUNIPER",
@@ -5805,7 +5805,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "EMERALD-SHENGSI",
@@ -5822,7 +5822,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "EQUINOX-ORENDA",
@@ -5839,7 +5839,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ETERNITY-DIVA",
@@ -5856,7 +5856,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "EVER-FAITH",
@@ -5873,7 +5873,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "EVER-FAME",
@@ -5890,7 +5890,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "EVER-MAJESTY",
@@ -5907,7 +5907,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "EVIAN",
@@ -5924,7 +5924,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "FEDERAL-CLYDE",
@@ -5941,7 +5941,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "FERN-O-DE-MAGALH-ES",
@@ -5958,7 +5958,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "FIGALIA-NAVIGATOR",
@@ -5975,7 +5975,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "FRATERNELLE-PROGRAMADO",
@@ -5989,7 +5989,7 @@
     "terminal": "19",
     "voyage": "5124-3 2026",
     "source": "APS — Navios Fundeados",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "GRANDE-ABIDJAN",
@@ -6006,7 +6006,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "GRANDE-AMBURGO",
@@ -6023,7 +6023,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "GREAT-VICTORY",
@@ -6040,7 +6040,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "GREEN-ITAPOA",
@@ -6057,7 +6057,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "GREEN-OSAKA",
@@ -6074,7 +6074,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "GREEN-PORTOCEL",
@@ -6091,7 +6091,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "GUAJARA",
@@ -6108,24 +6108,7 @@
     "sources": [
       "APS — Navios esperados: Passageiros"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
-  },
-  {
-    "id": "HAM-316",
-    "name": "HAM 316",
-    "imo": "",
-    "status": "Fundeado",
-    "eta": "28/09/2026 06:30:00",
-    "ata": "",
-    "etb": "",
-    "atb": "",
-    "terminal": "CODESP-RUA",
-    "voyage": "4451-- 2026",
-    "source": "APS — Navios Fundeados",
-    "sources": [
-      "APS — Navios esperados: Carga"
-    ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "HC-GLORY",
@@ -6142,7 +6125,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "HMM-JAKARTA",
@@ -6159,7 +6142,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "HOEGH-GIANT",
@@ -6176,7 +6159,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "HORIZON-THEANO",
@@ -6193,7 +6176,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "HYDRUS",
@@ -6210,7 +6193,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "HYUNDAI-DYNASTY",
@@ -6227,7 +6210,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "INTEGRADOR",
@@ -6244,7 +6227,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "IOANNIS-ZAFIRAKIS",
@@ -6261,7 +6244,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "IOLCOS-GENESIS",
@@ -6278,7 +6261,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "IONIC-KALLIRHOE",
@@ -6295,7 +6278,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "IRINA",
@@ -6312,7 +6295,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "KAVOKAMILI",
@@ -6329,7 +6312,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "KIRAN-EURASIA",
@@ -6346,7 +6329,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LB-ENERGY",
@@ -6363,7 +6346,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LE-HAVRE",
@@ -6380,7 +6363,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LEVANTES",
@@ -6397,7 +6380,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LILIAN-TRADER",
@@ -6414,7 +6397,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LOCAR-X-PROGRAMADO",
@@ -6428,7 +6411,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "5013-7 2026",
     "source": "APS — Navios Fundeados",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LOG-IN-JATOB-",
@@ -6445,7 +6428,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LOG-IN-PANTANAL-REB-",
@@ -6463,7 +6446,7 @@
       "APS — Navios esperados: Carga",
       "APS — Atracações programadas"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LOG-IN-RESILIENTE-REB-",
@@ -6480,7 +6463,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LORD-BYRON",
@@ -6498,7 +6481,7 @@
       "APS — Navios esperados: Carga",
       "APS — Atracações programadas"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "LUCA",
@@ -6515,7 +6498,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MAERSK-ACADIA",
@@ -6532,7 +6515,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MAERSK-FRANKFURT",
@@ -6549,7 +6532,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MAERSK-KARUN",
@@ -6566,7 +6549,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MAERSK-LETICIA-AO-",
@@ -6583,7 +6566,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MAERSK-LONDRINA",
@@ -6600,7 +6583,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MAERSK-SAN-VINCENT",
@@ -6617,7 +6600,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MAERSK-VENEZIA",
@@ -6635,7 +6618,7 @@
       "APS — Navios esperados: Carga",
       "APS — Atracações programadas"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MANDARIN-KAOHSIUNG",
@@ -6652,7 +6635,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MDL-TOOFAN",
@@ -6669,7 +6652,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MERCOSUL-SUAPE",
@@ -6686,7 +6669,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MH-SANDEFJORD",
@@ -6703,7 +6686,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MICHIGAN-HIGHWAY",
@@ -6720,7 +6703,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ML-SWALLOW",
@@ -6737,7 +6720,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MOCKINGBIRD",
@@ -6754,7 +6737,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MOYRA",
@@ -6771,7 +6754,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-ADELE",
@@ -6788,7 +6771,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-AINO",
@@ -6805,7 +6788,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-AJACCIO",
@@ -6822,7 +6805,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-AVNI",
@@ -6839,7 +6822,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-BREMEN",
@@ -6856,7 +6839,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-BUSAN-VIII-PROGRAMADO",
@@ -6870,7 +6853,7 @@
     "terminal": "B.T.P. 1",
     "voyage": "4992-1 2026",
     "source": "APS — Navios Fundeados",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-CASSANDRE",
@@ -6887,7 +6870,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-DIVINA",
@@ -6904,7 +6887,7 @@
     "sources": [
       "APS — Navios esperados: Passageiros"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-EMMA",
@@ -6921,7 +6904,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-LETICIA-X",
@@ -6938,7 +6921,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-MELINE",
@@ -6955,7 +6938,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-MICHELA",
@@ -6973,7 +6956,7 @@
       "APS — Navios esperados: Carga",
       "APS — Atracações programadas"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-MUSICA",
@@ -6990,7 +6973,7 @@
     "sources": [
       "APS — Navios esperados: Passageiros"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MSC-RIKKU",
@@ -7007,7 +6990,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "MTM-BIG-APPLE",
@@ -7024,7 +7007,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "NAVIOS-DOMINO",
@@ -7041,7 +7024,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "NAVIOS-VERMILION",
@@ -7058,7 +7041,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "NEPTULUS",
@@ -7075,7 +7058,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "NORD-HELSINKI",
@@ -7092,7 +7075,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "NORTH-ISLAND",
@@ -7109,7 +7092,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "OCEAN-RELAY",
@@ -7126,7 +7109,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "OKEE-MIMI",
@@ -7143,7 +7126,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ONE-AMAZON",
@@ -7160,7 +7143,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "OSHIMA-JAPAN",
@@ -7177,7 +7160,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "PEACE-BAND",
@@ -7194,7 +7177,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "PRINCE-JOY",
@@ -7211,7 +7194,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "PUNA-PROGRAMADO",
@@ -7225,7 +7208,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5085-8 2026",
     "source": "APS — Navios Fundeados",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "PURPLE-RAIN",
@@ -7242,7 +7225,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "R-MULO-ALMEIDA",
@@ -7259,7 +7242,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "SAGA-SKY",
@@ -7276,7 +7259,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "SAN-ANTONIO-MAERSK",
@@ -7293,7 +7276,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "SEA-DIAMOND-I",
@@ -7310,7 +7293,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "SENTINEL",
@@ -7327,7 +7310,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "SHINE-AMBER",
@@ -7344,7 +7327,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "SHUN-FU-FA-PROGRAMADO",
@@ -7358,7 +7341,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "4840-7 2026",
     "source": "APS — Navios Fundeados",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "SOLANA-S",
@@ -7375,7 +7358,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "SPAR-VEGA",
@@ -7392,7 +7375,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "STAR-ASTRID",
@@ -7409,7 +7392,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "STAR-NORGE",
@@ -7426,7 +7409,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "STELLAR-TRADER",
@@ -7443,7 +7426,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "STEPHANIE-C",
@@ -7460,7 +7443,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "TAYGETUS",
@@ -7477,7 +7460,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "THEMIS-PETRAKIS",
@@ -7494,7 +7477,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "TINOS-EXPRESS",
@@ -7511,7 +7494,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "TOKYO-QUEEN",
@@ -7528,7 +7511,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "TOP-FORTUNE",
@@ -7545,7 +7528,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "TORM-ALEXANDRA",
@@ -7562,7 +7545,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "TS-4",
@@ -7580,7 +7563,7 @@
       "APS — Navios esperados: Carga",
       "APS — Atracações programadas"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "TS-4-PROGRAMADO",
@@ -7594,7 +7577,7 @@
     "terminal": "CAIS SABOO",
     "voyage": "5116-- 2026",
     "source": "APS — Navios Fundeados",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "V-ISALOS",
@@ -7611,7 +7594,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "VELA-STAR",
@@ -7628,7 +7611,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "VITAOCEAN",
@@ -7645,7 +7628,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "VORIAS",
@@ -7662,7 +7645,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "VSG-PIONEER-PROGRAMADO",
@@ -7676,7 +7659,7 @@
     "terminal": "ULTRAFERTIL",
     "voyage": "5073-0 2026",
     "source": "APS — Navios Fundeados",
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "WU-ZHU-HAI",
@@ -7693,7 +7676,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "XIN-HAI-TONG-806",
@@ -7710,7 +7693,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "YANGZE-19",
@@ -7727,7 +7710,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "YARA-KARA",
@@ -7744,7 +7727,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "YM-NAVIGATOR",
@@ -7761,7 +7744,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "YU-AN",
@@ -7778,7 +7761,7 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   },
   {
     "id": "ZURICH",
@@ -7795,6 +7778,6 @@
     "sources": [
       "APS — Navios esperados: Carga"
     ],
-    "updatedAt": "27/11/2026 02:50:40"
+    "updatedAt": "27/11/2026 11:32:45"
   }
 ]
